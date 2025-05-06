@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SpeedCell" id="gTV-IL-0wX" customClass="SpeedCell" customModule="VideoEditing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="72" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="72" height="56"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hka-bO-NYD">
+                        <rect key="frame" x="0.0" y="0.0" width="72" height="56"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKS-Ng-YZ9">
+                                <rect key="frame" x="27" y="19.666666666666668" width="18.333333333333329" height="17.000000000000004"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wKS-Ng-YZ9" firstAttribute="centerX" secondItem="hka-bO-NYD" secondAttribute="centerX" id="ULj-IU-Y2u"/>
+                            <constraint firstItem="wKS-Ng-YZ9" firstAttribute="centerY" secondItem="hka-bO-NYD" secondAttribute="centerY" id="cs8-td-YMl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hka-bO-NYD" secondAttribute="bottom" id="VfZ-eb-hdn"/>
+                <constraint firstItem="hka-bO-NYD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZHD-dA-kdv"/>
+                <constraint firstAttribute="trailing" secondItem="hka-bO-NYD" secondAttribute="trailing" id="iNl-X8-Nb1"/>
+                <constraint firstItem="hka-bO-NYD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wQF-Lx-5G2"/>
+            </constraints>
+            <size key="customSize" width="72" height="56"/>
+            <connections>
+                <outlet property="bgView" destination="hka-bO-NYD" id="f3I-ac-Lll"/>
+                <outlet property="speedLabel" destination="wKS-Ng-YZ9" id="3QU-p7-gjC"/>
+            </connections>
+            <point key="canvasLocation" x="-7.6335877862595414" y="21.83098591549296"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

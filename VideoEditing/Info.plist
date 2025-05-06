@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need access to save processed videos to your photo library.</string>
 </dict>
 </plist>

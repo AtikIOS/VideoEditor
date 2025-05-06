@@ -1,0 +1,33 @@
+{
+  "originHash" : "fc04d98ca1735ddecfb1809d32b5df3439de2f14aa6350b3734f470659fdd60d",
+  "pins" : [
+    {
+      "identity" : "imglykit-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/imgly/imglykit-sp.git",
+      "state" : {
+        "revision" : "8fc99ac3fbb58edad7cdd65fffb349ea6d14d72b",
+        "version" : "11.10.2"
+      }
+    },
+    {
+      "identity" : "nvactivityindicatorview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ninjaprox/NVActivityIndicatorView.git",
+      "state" : {
+        "revision" : "121455c4e630fcb95aaefd7e4257b0c2e3cfe6d5",
+        "version" : "5.2.0"
+      }
+    },
+    {
+      "identity" : "vesdk-ios-build",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/imgly/vesdk-ios-build",
+      "state" : {
+        "revision" : "0f1b498148c44760a8de76e68965ff4b546d5373",
+        "version" : "11.10.2"
+      }
+    }
+  ],
+  "version" : 3
+}
